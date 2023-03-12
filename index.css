@@ -1,6 +1,6 @@
 .body{
     width: 1305px;;
-    background: url(athi\ org.jpg);
+    background: url(ac.jpg);
     background-size: cover;
 }
 
@@ -16,19 +16,24 @@ width: 1250px;
 
 
 .lis li{
-    list-style: none;
-   
     text-align: center;
     float: left;
     display: flex ;
     justify-content: right;
-    margin-right: 36px;
+    margin-right: 60px;
+    
 
     
 }
  li a{
+    font-weight: bold;
+    border: 13px solid #ff0000;
+    border-radius: 20px;
+    padding: 22px,16px;
+    background-color: #ff0000;
     color:black;
     text-decoration: none;
+    
     
     
  }
@@ -38,155 +43,125 @@ width: 1250px;
     border-bottom: 5px ridge ;   
     border-width: 2px;
     display: flex;
-    float: center;
+    border-radius: 10px;
+    border-color: #d333a3;
+        padding: 10px, 5px;
     margin-top: 0px;
     padding: 0px;
     justify-content: center;
     flex-wrap: wrap;
    
+   
     
     
 }
 .active :hover{
-    text-shadow: 10px;
     text-decoration-color: rgb(241, 238, 238);
-    background-color: rgb(0, 0, 0);
     text-decoration: none;
     color: antiquewhite;
+    text-transform: 5s;
    
 
     
     margin-bottom: 4px;
 }
-.intro h2{
-    text-align: center;
-    text-decoration: double;
-    color: black;
-    font-size: 114px;
+.camp {
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    align-items: center;    
     font-family: 'Nanum Myeongjo' , serif;
 }
-
-.contam{
+.intro h2{
     position: relative;
-    min-height: 0vh;
-    padding: 30px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    font-size: 3em;
+    letter-spacing: 7px;
+    
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    animation: animate 5s linear infinite;
     
 }
-.cont .cont{
-    min-height: 80px;
-    text-align: center;
+@media only screen and (max-width:700px){
+    .camp {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;    
+        font-family: 'Nanum Myeongjo' , serif;
+    }
+    .intro h2{
+        position: relative;
+        font-size: 2em;
+        letter-spacing: 7px;
+        
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+        line-height: 1.7em;
+        animation: animate 5s linear infinite;
+        
+    }
+
 }
 
-.contam .cont h2{
-    font-size: 36px;
-    font-weight: 500;
-    color: black;
-}
-.contam .cont p{
-    font-size: 36px;
-    font-weight: 500;
-    color: black;
-}
-.contfom{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-.contfom .continfo{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    flex-direction: row;
-}
-.contfom .continfo .boxi{
+.intro h3{
     position: relative;
-    padding: 20px;
-    display: flex;
+    font-size: 3em;
+    letter-spacing: 7px;
+    
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    animation: animate 5s linear infinite;
+    
 }
-.iconic{
-    min-width: 60px;
-    height: 60px;
-    background: #fff;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50% ;
-    font-size: 22px;
+@keyframes animate
+{
+    0%{
+        color: #e03485;
+        box-shadow: none;
+    }
+     100%{
+        color:rgb(255, 0, 0);
+        box-shadow: 0 0 10px #ff0263,
+        0 0 20px #ff00b3,
+        0 0 30px #ff0263,
+        0 0 40px #ff00b3,
+        0 0 50px rgb;
+    }
 }
-.texas{
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: black;
-    flex-direction: column;
-    font-weight: 300;
-}
-.texas h3{
-color: #000000;
-    font-weight: 500;
+@media only screen and (max-width:700px){
+    .camp {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;    
+        font-family: 'Nanum Myeongjo' , serif;
+    }
+    .intro h3{
+        position: relative;
+        font-size: 2em;
+        letter-spacing: 7px;
+        
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+        line-height: 1.7em;
+        animation: animate 5s linear infinite;
+        
+    }
+
 }
 
-.input span{
-    position: absolute;
-    left: 0;
-    padding: 5px;
-    font-size: 16px;
-    margin: 10px;
-    pointer-events: none;
-    transition: 1s;
-    color: #666;
-}
-.formm{
-   width: 250px;
-   height: 300px;
-   position: absolute;
-   top: 340px;
-   left: 870px;
-   border-radius: 10px;
-    padding: 25px;
-background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ;
-}
-.formm input{
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-bottom:1px solid #fff;
-    border-top: none;
-    border-left: none;
-    border-right:none ;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-family:'Nanum Myeongjo' , serif ;
-}
-.formm input:focus{
-    outline: none;
-}
-::placeholder{
-    color: #fff;
-    font-family:'Nanum Myeongjo' , serif  ;
-}
- .hi{
-    width: 240px;
-    height: 40px;
-    background: #fff;
-    border: none;
-    margin-top:30px ;
-    font-size: 18px;
-    border-radius: 10px;
-    text-decoration-color: black;
-}
-.hi a{
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-}
+
+
+
+
+
 
 
 @media only screen and (max-width:700px)
@@ -195,6 +170,13 @@ background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ;
         width: 500px;;
         background: url(athi\ org.jpg);
         background-size: cover;
+        position: center;
+    }
+    .log{
+        display: flex;
+    height: 150px;
+    width: 600px;
+        justify-content: center;
     }
 }
 @media only screen and (max-width:700px)
@@ -208,24 +190,31 @@ background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ;
 }
 @media only screen and (max-width:700px)
 {
+    .lis li{
+        text-align: center;
+        float: left;
+        display: flex ;
+        justify-content: right;
+        margin-right: 12px;
+        border-radius: 10px;
+        padding: 10px, 5px;
+    }
+    
     .nave{
-        
-    border-top: 10px ridge #2C5F2D;
-    border-bottom: 10px ridge #2C5F2D;
-    border-color:#2C5F2D;
-    
-    
-    border-width: 5px;
         display: flex;
-        float: center;
-        margin-top: 42px;
+        margin-top: 26px;
         padding: 0px;
         justify-content: center;
         flex-wrap: wrap;
     }
     li a{
-        color: black;
-        text-decoration: none;
+        font-weight: bold;
+    border: 13px solid #ff0000;
+    border-radius: 20px;
+    padding: 22px,16px;
+    background-color: #ff0000;
+    color:black;
+    text-decoration: none;
         
      }
     }
@@ -235,7 +224,7 @@ background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ;
      text-align: center;
     text-decoration: double;
     color: black;
-    font-size: 114px;
+    font-size: 33px;
     font-family: 'Nanum Myeongjo' , serif;
  }
 }

@@ -1,6 +1,100 @@
 .med{
     display: flex;
+    margin-top: -16%;
     
+}
+.cass {
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+    align-items: center;    
+    font-family: 'Nanum Myeongjo' , serif;
+    margin-top: -16%;
+}
+.int h2{
+    position: relative;
+    font-size: 3em;
+    letter-spacing: 0.07px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: left;
+    line-height: 0.07em;
+    margin-top: 5pxS;
+    animation: animate 5s linear infinite;
+    
+}
+@media only screen and (max-width:700px){
+    .cass {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;    
+        font-family: 'Nanum Myeongjo' , serif;
+    }
+    .int h2{
+        position: relative;
+        font-size: 2em;
+        letter-spacing: 0.07px;
+        
+        text-transform: uppercase;
+        width: 100%;
+        text-align: left;
+        line-height: 0.07em;
+        animation: animate 5s linear infinite;
+        
+    }
+
+}
+
+.int h3{
+    position: relative;
+    font-size: 2em;
+    letter-spacing: 0.07px;
+    
+    text-transform: uppercase;
+    width: 100%;
+    text-align: left;
+    line-height: 0.07em;
+    animation: animate 5s linear infinite;
+    
+}
+@keyframes animate
+{
+    0%{
+        color: #e03485;
+        box-shadow: none;
+    }
+     100%{
+        color:rgb(7, 5, 5);
+        box-shadow: 0 0 10px #ff0000,
+        0 0 20px #ff00b3,
+        0 0 30px #ff0263,
+        0 0 40px #ff00b3,
+        0 0 50px rgb;
+    }
+}
+@media only screen and (max-width:700px){
+    .cass {
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;    
+        font-family: 'Nanum Myeongjo' , serif;
+    }
+    .int h3{
+        position: relative;
+        font-size: 2em;
+        letter-spacing: 0.07px;
+        
+        text-transform: uppercase;
+        width: 100%;
+        text-align: left;
+        line-height: 0.07em;
+        animation: animate 5s linear infinite;
+        
+    }
+
 }
 
 .poj{
