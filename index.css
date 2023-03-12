@@ -31,7 +31,7 @@ width: 1250px;
     border-radius: 20px;
     padding: 22px,16px;
     background-color: #ff0000;
-    color:black;
+    color:rgb(255, 255, 255);
     text-decoration: none;
     
     
@@ -56,9 +56,9 @@ width: 1250px;
     
 }
 .active :hover{
-    text-decoration-color: rgb(241, 238, 238);
+    text-decoration-color: rgb(0, 0, 0);
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     text-transform: 5s;
    
 
@@ -80,7 +80,7 @@ width: 1250px;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
-    line-height: 1.7em;
+    line-height: 0.7em;
     animation: animate 5s linear infinite;
     
 }
@@ -100,7 +100,7 @@ width: 1250px;
         text-transform: uppercase;
         width: 100%;
         text-align: center;
-        line-height: 1.7em;
+        line-height: 0.7em;
         animation: animate 5s linear infinite;
         
     }
@@ -115,7 +115,7 @@ width: 1250px;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
-    line-height: 1.7em;
+    line-height: 0.7em;
     animation: animate 5s linear infinite;
     
 }
@@ -150,7 +150,7 @@ width: 1250px;
         text-transform: uppercase;
         width: 100%;
         text-align: center;
-        line-height: 1.7em;
+        line-height: 0.7em;
         animation: animate 5s linear infinite;
         
     }
@@ -190,6 +190,32 @@ width: 1250px;
 }
 @media only screen and (max-width:700px)
 {
+    .ham.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .ham.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45dge);
+    }
+    .ham.active .bar:nth-child(1){
+        transform: translateY(-8px) rotate(-45dge);
+    }
+    .nave-lis{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #d333a3;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nave-li{
+        margin: 16px;
+    }
+    .nav-lis.active{
+        left: 0;
+    }
     .lis li{
         text-align: center;
         float: left;
@@ -287,4 +313,11 @@ color: #000000;
 }
 .last ul a{
     text-decoration: line-through;
+}
+.clicks{
+    background: #ff0000;
+    border-radius: 10px;
+    margin-left: 500px;
+    color: #fff;
+   border-color: #ff0000;
 }
