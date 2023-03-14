@@ -1,6 +1,6 @@
 .body{
     width: 1305px;;
-    background: url(ac.jpg);
+    background: url(cho.jpg);
     background-size: cover;
 }
 
@@ -231,7 +231,7 @@ width: 1250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -15px;
+    margin-top: 20px;
 }
 .contfoms .continfos{
     width: 100%;

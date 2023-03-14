@@ -21,7 +21,7 @@
     text-align: left;
     line-height: 0.07em;
     margin-top: 5pxS;
-    animation: animate 5s linear infinite;
+    animation: animate 8s linear infinite;
     
 }
 @media only screen and (max-width:700px){
@@ -36,12 +36,12 @@
         position: relative;
         font-size: 2em;
         letter-spacing: 0.07px;
-        
+        font-weight: bold;
         text-transform: uppercase;
         width: 100%;
         text-align: left;
         line-height: 0.07em;
-        animation: animate 5s linear infinite;
+        animation: animate 8s linear infinite;
         
     }
 
@@ -51,26 +51,26 @@
     position: relative;
     font-size: 2em;
     letter-spacing: 0.07px;
-    
+    font-weight: bold;
     text-transform: uppercase;
     width: 100%;
     text-align: left;
     line-height: 0.07em;
-    animation: animate 5s linear infinite;
+    animation: animate 8s linear infinite;
     
 }
 @keyframes animate
 {
     0%{
-        color: #e03485;
+        color: #dfd2d8;
         box-shadow: none;
     }
      100%{
-        color:rgb(7, 5, 5);
-        box-shadow: 0 0 10px #ff0000,
-        0 0 20px #ff00b3,
-        0 0 30px #ff0263,
-        0 0 40px #ff00b3,
+        color:#000000;
+        box-shadow: 0 0 10px #000000,
+        0 0 20px #504040,
+        0 0 30px #bd9e9e,
+        0 0 40px #af9da5,
         0 0 50px rgb;
     }
 }
@@ -86,12 +86,12 @@
         position: relative;
         font-size: 2em;
         letter-spacing: 0.07px;
-        
+        font-weight: bold;
         text-transform: uppercase;
         width: 100%;
         text-align: left;
         line-height: 0.07em;
-        animation: animate 5s linear infinite;
+        animation: animate 8s linear infinite;
         
     }
 
@@ -162,4 +162,48 @@
 .texas h3{
 color: #000000;
     font-weight: 500;
+}
+.by {
+    align-items: center;
+height: 267px;
+width: 276px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 25px;
+box-shadow: 20px 30px 40px rgb(7, 7, 7);
+margin-top: 17px;
+}
+.poj {
+    align-items: center;
+height: 267px;
+width: 276px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 25px;
+box-shadow: 20px 30px 40px rgb(7, 7, 7);
+margin-top: 17px;
+}
+.los {
+    align-items: center;
+height: 267px;
+width: 276px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 25px;
+box-shadow: 20px 30px 40px rgb(7, 7, 7);
+margin-top: 17px;
+}
+.hee {
+    align-items: center;
+height: 267px;
+width: 276px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 25px;
+box-shadow: 20px 30px 40px rgb(7, 7, 7);
+margin-top: 17px;
 }
