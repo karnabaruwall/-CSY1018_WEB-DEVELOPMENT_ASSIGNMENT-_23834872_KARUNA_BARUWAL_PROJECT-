@@ -1,3 +1,28 @@
+.ints{
+    width: 660px;
+    height: 300px;
+   margin-top: 72px;
+    border-radius: 10px;
+     padding: 25px;
+ background:linear-gradient(to top, rgba(2, 46, 168, 0.5)50%, rgba(2, 46, 168, 0.5)50%) ;
+}
+
+
+.ints h2{
+   
+     margin: 2px;
+     font-weight: 200;
+}
+.ints p{
+   
+     margin: 2px;
+     font-weight: 200;
+}
+.saha{
+   position: relative;
+   margin-top: 35px;
+   margin-left: 480px;
+}
 .legas{
     position: relative;
     width: 100%;

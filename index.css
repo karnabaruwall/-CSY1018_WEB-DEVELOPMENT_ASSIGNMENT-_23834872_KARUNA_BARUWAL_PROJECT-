@@ -1,13 +1,13 @@
 .body{
     width: 1305px;;
-    background: url(cho.jpg);
+    background: url(marsh.jpg);
     background-size: cover;
 }
 
 .log{
     display: flex;
 height: 150px;
-width: 1250px;
+width: 1056px;
     justify-content: center;
 }
 .ham {
@@ -44,9 +44,10 @@ width: 1250px;
     border-width: 2px;
     display: flex;
     border-radius: 10px;
-    border-color: #d333a3;
+    border-color: #0230f8;
         padding: 10px, 5px;
-    margin-top: 0px;
+    margin-right:25px;
+    margin-left: -8px;
     padding: 0px;
     justify-content: center;
     flex-wrap: wrap;
@@ -122,16 +123,12 @@ width: 1250px;
 @keyframes animate
 {
     0%{
-        color: #e03485;
+        color: #000000;
         box-shadow: none;
     }
      100%{
-        color:rgb(255, 0, 0);
-        box-shadow: 0 0 10px #ff0263,
-        0 0 20px #ff00b3,
-        0 0 30px #ff0263,
-        0 0 40px #ff00b3,
-        0 0 50px rgb;
+        color:rgb(0, 204, 255);
+       
     }
 }
 @media only screen and (max-width:700px){
@@ -225,6 +222,8 @@ width: 1250px;
     background: #d4a1fe;
     min-height: 203px;
     padding: 20px, 50px;
+    margin-left: -116px;
+    margin-right: 0px;
 }
 .contfoms{
     width: 100%;
