@@ -10,7 +10,8 @@
     position: relative;
     font-size: 3em;
     letter-spacing: 7px;
-    
+    margin-right: 10px;
+    margin-left: 10px;
     text-transform: uppercase;
     width: 100%;
     text-align: center;

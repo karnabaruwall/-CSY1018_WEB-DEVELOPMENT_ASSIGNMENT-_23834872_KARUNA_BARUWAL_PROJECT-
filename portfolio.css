@@ -6,7 +6,7 @@
 .cass {
     display: flex;
     justify-content: space-evenly;
-    min-height: 100vh;
+    min-height: 70vh;
     align-items: center;    
     font-family: 'Nanum Myeongjo' , serif;
     margin-top: -16%;
