@@ -62,15 +62,15 @@
 @keyframes animate
 {
     0%{
-        color: #dfd2d8;
+        color: #c0bcbe;
         box-shadow: none;
     }
      100%{
         color:#000000;
         box-shadow: 0 0 10px #000000,
         0 0 20px #504040,
-        0 0 30px #bd9e9e,
-        0 0 40px #af9da5,
+        0 0 30px #333232,
+        0 0 40px #383637,
         0 0 50px rgb;
     }
 }
