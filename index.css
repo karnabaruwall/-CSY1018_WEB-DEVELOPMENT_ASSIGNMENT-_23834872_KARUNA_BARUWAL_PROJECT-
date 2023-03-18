@@ -1,356 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
 .body{
     width: 1305px;;
     background: url(marsh.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
-
 .log{
     display: flex;
 height: 150px;
 width: 1056px;
     justify-content: center;
 }
-.ham {
-    display:none;
-}
 
-
-.lis li{
-    text-align: center;
-    float: left;
-    display: flex ;
-    justify-content: right;
-    margin-right: 60px;
-    
-
-    
-}
- li a{
-    font-weight: bold;
-    border: 13px solid #ff0000;
-    border-radius: 20px;
-    padding: 22px,16px;
-    background-color: #ff0000;
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-    
-    
-    
- }
-.nave{
-        
-    border-top: 5px ridge ;
-    border-bottom: 5px ridge ;   
-    border-width: 2px;
+nav {
     display: flex;
-    border-radius: 10px;
-    border-color: #0230f8;
-        padding: 10px, 5px;
-    margin-right:25px;
-    margin-left: -8px;
-    padding: 0px;
-    justify-content: center;
-    flex-wrap: wrap;
-   
-   
-    
-    
-}
-.active :hover{
-    text-decoration-color: rgb(0, 0, 0);
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    text-transform: 5s;
-   
-
-    
-    margin-bottom: 4px;
-}
-.camp {
-    display: flex;
-    justify-content: center;
-    min-height: 50vh;
-    align-items: center;    
-    font-family: 'Nanum Myeongjo' , serif;
-}
-.intro h2{
-    position: relative;
-    font-size: 3em;
-    letter-spacing: 7px;
-    
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
-    line-height: 0.7em;
-    animation: animate 5s linear infinite;
-    
-}
-@media only screen and (max-width:700px){
-    .camp {
-        display: flex;
-        justify-content: center;
-        min-height: 100vh;
-        align-items: center;    
-        font-family: 'Nanum Myeongjo' , serif;
-    }
-    .intro h2{
-        position: relative;
-        font-size: 18px;
-        letter-spacing: 3px;
-        
-        text-transform: uppercase;
-        width: 100%;
-        text-align: center;
-        line-height: 0px;
-        animation: animate 5s linear infinite;
-        
-    }
-
-}
-
-.intro h3{
-    position: relative;
-    font-size: 3em;
-    letter-spacing: 7px;
-    
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center;
-    line-height: 0.7em;
-    animation: animate 5s linear infinite;
-    
-}
-@keyframes animate
-{
-    0%{
-        color: #000000;
-        box-shadow: none;
-    }
-     100%{
-        color:rgb(0, 204, 255);
-       
-    }
-}
-@media only screen and (max-width:700px){
-    .camp {
-        display: flex;
-        justify-content: center;
-        min-height: 10px;
-        align-items: center;    
-        font-family: 'Nanum Myeongjo' , serif;
-    }
-    .intro h3{
-        position: relative;
-        font-size: 18px;
-        letter-spacing: 2px;
-        
-        text-transform: uppercase;
-        width: 100%;
-        text-align: center;
-        line-height: opx;
-        animation: animate 5s linear infinite;
-        
-    }
-    
-}
-@media only screen and (max-width:700px){
-    .clicks{
-        background: #ff0000;
-        border-radius: 10px;
-        margin-left: 0px;
-        
-        color: #fff;
-       border-color: #ff0000;
-    }
+    justify-content: space-between;
+    padding: 0 15%;
+    height: 75px;
+    line-height: 75px;
+    background: #ff0000;
 }
 
 
 
-
-
-
-
-@media only screen and (max-width:700px)
- {
-    .body{
-        width: 500px;;
-        background: url(ac.jpg);
-        background-size: cover;
-        position: center;
-    }
-    .log{
-        display: flex;
-    height: 150px;
-    width: 600px;
-        justify-content: center;
-    }
-}
-@media only screen and (max-width:700px)
-{
-    .ham {
-        display:block;
-        width: 35px;
-        height: 5px;
-        margin: 2px,0;
-    }
-}
-@media only screen and (max-width:700px)
-{
-    
-    .nave{
-        display: none;
-    }
-    .nave-lis{
-        display: none;
-    }
-    
-    }
-    @media only screen and (max-width:700px)
-    {
-    .intro{
-     text-align: center;
-    text-decoration: double;
-    color: black;
-    font-size: 33px;
-    font-family: 'Nanum Myeongjo' , serif;
- }
-}
-
-.leg{
-    position: relative;
-    width: 100%;
-    background: #d4a1fe;
-    min-height: 203px;
-    padding: 20px, 50px;
-    margin-left: -116px;
-    margin-right: 0px;
-}
-.contfoms{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-.contfoms .continfos{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.contfoms .continfos .boxis{
-    position: relative;
-    padding: 20px;
+nav .lis {
     display: flex;
 }
-.iconics{
-    min-width: 60px;
-    height: 60px;
-    background: #fff;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50% ;
-    font-size: 22px;
+
+nav .lis .naves {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: .4s;
 }
-.texass{
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: black;
-    flex-direction: column;
-    font-weight: 300;
-    margin-top: 10px;
+
+nav .lis .naves:hover {
+    background: #b69955;
 }
-.texass h3{
-color: #000000;
+
+nav .lis .nav-link {
+    color: #f1f1f1;
+    font-size: 18px;
     font-weight: 500;
 }
-.footnave{
-    padding: 10px, 5px;
-    margin-top: 0px;
-    padding: 0px;
-    justify-content: center;
-    flex-wrap: wrap;
+
+@media (max-width: 935px) {
+    .body{
+        width: 500px;;
+        background: url(marsh.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: fixed;
+
+    }
+
+    nav {
+        padding: 0 2rem;
+        width: 582px;
+        margin-top: -125px;
+        height: 126px;
+        margin-right: 656px;
+    }
+
+    nav .lis .naves {
+        padding: 0 20px;
+    }
+
 }
-.last ul a{
-    text-decoration: line-through;
-}
-.clicks{
-    background: #ff0000;
-    border-radius: 10px;
-    margin-left: 500px;
-    color: #fff;
-   border-color: #ff0000;
-}
-@media only screen and (max-width:700px){
-    .leg{
-        position: relative;
-        width: 109%;
-        background: #d4a1fe;
-        min-height: 203px;
-        padding: 20px, 50px;
-        margin-left: -116px;
-        margin-right: 0px;
-    }
-    .contfoms{
-        width: 100%;
+
+@media (max-width: 675px) {
+    .log{
         display: flex;
+    height: 125px;
+    width: 125px;
+    margin-left: 523px;
         justify-content: center;
-        align-items: center;
-        margin-top: 20px;
     }
-    .contfoms .continfos{
-        width: 100%;
-        height: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .contfoms .continfos .boxis{
-        position: relative;
-        padding: 20px;
-        display: flex;
-    }
-    .iconics{
-        min-width: 60px;
-        height: 60px;
-        background: #fff;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50% ;
-        font-size: 22px;
-    }
-    .texass{
-        display: flex;
-        margin-left: 20px;
-        font-size: 16px;
-        color: black;
-        flex-direction: column;
-        font-weight: 300;
-        margin-top: 10px;
-    }
-    .texass h3{
-    color: #000000;
-        font-weight: 500;
-    }
-    .footnave{
-        padding: 10px, 5px;
-        margin-top: 0px;
-        padding: 0px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .last ul a{
-        text-decoration: line-through;
-    }
-    .clicks{
+
+    nav .lis {
+        display: grid;
+        position: absolute;
         background: #ff0000;
-        border-radius: 10px;
-        margin-left: 500px;
-        color: #fff;
-       border-color: #ff0000;
+        width: 99%;
+        top: 125px;
+        left: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: .6s;
     }
+
+    nav .lis .naves {
+        padding-left: 35px;
+    }
+
+    nav .navbar-toggler {
+        display: grid !important;
+        
+    }
+
+}
+
+nav .navbar-toggler {
+    display: none;
+    height: min-content;
+    margin: 46px -10px 0 0;
+    cursor: pointer;
+}
+
+nav .navbar-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border-radius: 10%;
+    transition: .4s;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ nav .lis {
+    transform: translateY(0);
+}
+
+input:checked ~ nav .navbar-toggler {
+    margin-top: 35px;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+    display: none;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+    transform: rotate(-45deg);
 }
